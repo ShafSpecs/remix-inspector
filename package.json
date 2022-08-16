@@ -1,0 +1,64 @@
+{
+  "name": "remix-inspector",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "browser": "./browser/index.js",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "npm run build:browser && npm run build:main",
+    "build:browser": "tsc --project tsconfig.json --module ESNext --outDir ./browser",
+    "build:main": "tsc --project tsconfig.json --module CommonJS --outDir ./build",
+    "lint": "eslint --ext .ts,.tsx src/",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@remix-run/react": "^1.1.1",
+    "@remix-run/server-runtime": "^1.1.1",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@headlessui/react": "^1.6.6",
+    "@remix-run/dev": "^1.6.8",
+    "@remix-run/node": "^1.6.8",
+    "@remix-run/react": "^1.6.8",
+    "@types/react-dom": "^18.0.6",
+    "@remix-run/server-runtime": "^1.6.8",
+    "@types/react": "^17.0.14",
+    "@types/uuid": "^8.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^41.0.1",
+    "clsx": "^1.2.1",
+    "prettier": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-json-tree": "^0.17.0",
+    "remix-utils": "^3.3.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "intl-parse-accept-language": "^1.0.0",
+    "is-ip": "^3.1.0",
+    "schema-dts": "^1.1.0",
+    "type-fest": "^2.5.2",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=0.14.0"
+  }
+}
