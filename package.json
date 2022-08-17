@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
+  "homepage": "https://github.com/ShafSpecs/remix-inspector#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShafSpecs/remix-inspector"
+  },
+  "contributors": [
+    "Abdur-Rahman Fashola <https://github.com/ShafSpecs> (https://shafspecs.fly.dev)",
+    "Sergio Xalambari <https://github.com/sergiodxa> (https://sergiodxa.com/)"
+  ],
   "browser": "./browser/index.js",
   "main": "./build/index.js",
   "scripts": {
@@ -60,5 +69,16 @@
   },
   "engines": {
     "node": ">=0.14.0"
-  }
+  },
+  "keywords": [
+    "remix",
+    "remix-run",
+    "remix-inspector",
+    "inspector",
+    "development",
+    "loader",
+    "remix.run",
+    "SSR",
+    "route"
+  ]
 }
