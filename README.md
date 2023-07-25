@@ -1,5 +1,7 @@
 # Remix Inspector
 
+**Deprecated: Please make use of [Remix Dev Tools](https://github.com/Code-Forge-Net/Remix-Dev-Tools) by [Code Forge](https://github.com/Code-Forge-Net)**
+
 This is a tool to help you inspect a Remix ([Remix.run](https://remix.run)) routes data.
 
 ## Installation
